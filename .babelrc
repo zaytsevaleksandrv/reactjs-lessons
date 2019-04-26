@@ -3,8 +3,8 @@
   "plugins": ["transform-class-properties","@babel/plugin-transform-runtime"]
 }
 
-// Используем @babel/preset-env для того, чтобы применять только те плагины, которые необходимы для нашего проекта;
-// @babel/preset-react — преобразовывает в JavaScript и JSX-код;
-// transform-class-properties — https://www.npmjs.com/package/babel-plugin-transform-class-properties
-// @babel/plugin-transform-runtime — плагин, который позволяет повторно использовать внедренный вспомогательный код Babel
-//                                   для экономии на размере кода
+# Используем @babel/preset-env для того, чтобы применять только те плагины, которые необходимы для нашего проекта;
+# @babel/preset-react — преобразовывает в JavaScript и JSX-код;
+# transform-class-properties — https://www.npmjs.com/package/babel-plugin-transform-class-properties
+# @babel/plugin-transform-runtime — плагин, который позволяет повторно использовать внедренный вспомогательный код Babel
+#                                   для экономии на размере кода
